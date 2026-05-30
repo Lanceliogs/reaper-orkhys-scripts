@@ -1,3 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="Orkhys Scripts">
-</index>
+<index version="1" name="Orkhys Scripts" commit="83fbba3ae9137e808d0523e21b7cc5424e7ad358">
+<category name="Scripts"><reapack name="setlist_manager.lua" type="script" desc="Orkhys Setlist Manager"><metadata><description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard \ql \f0 \sa180 \li0 \fi0 Reorderable live setlist manager for REAPER. Decouples show order from timeline layout using regions. Supports linked songs (auto-chain), persistent setlists, and JSON export/import. Requires ReaImGui extension.\par}
+}
+]]></description></metadata><version name="1.0.0" author="Lanceliogs" time="2026-05-30T10:37:40Z"><source main="main">https://github.com/Lanceliogs/reaper-orkhys-scripts/raw/83fbba3ae9137e808d0523e21b7cc5424e7ad358/Scripts/setlist_manager.lua</source></version></reapack></category></index>
