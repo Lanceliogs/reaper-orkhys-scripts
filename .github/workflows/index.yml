@@ -25,6 +25,11 @@ jobs:
       - name: Install reapack-index
         run: gem install reapack-index
 
+      - name: Configure git identity
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
       - name: Build index
         run: reapack-index --commit --scan
 
